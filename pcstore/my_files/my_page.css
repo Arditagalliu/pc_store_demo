@@ -1,0 +1,546 @@
+      /*STANDARD CSS FOR EVERY PAGE*/
+      @media screen and (max-device-width: 600px) {
+        ul.nav li#about,
+        ul.nav li#about1,
+        ul.nav li {float: none;}
+        #nav {
+          text-align: center;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          width: 100%;
+          top: 0;
+        }
+        li a {
+          display: block;
+          color: white;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        #copy {
+          display: none;
+        }
+        #social {
+          display: none;
+        }
+        #contact {
+          display: inline-block;
+          width: 300px;
+          padding-right: 0;
+          padding-left: 2%;
+        }
+      }
+      body {
+        margin: 0;
+      }
+
+      @media screen and (min-device-width: 601px) {
+      #nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        width: 100%;
+        top: 0;
+        position: sticky;
+      }
+
+      li {
+        float: left;
+        border-left: 1px solid #4CAF50;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+      #about, #about1 {
+        float: right;
+        position: sticky;
+      }
+      #copy {
+        display: inline-block;
+        width: 350px;
+        padding-right: 0;
+        padding-left: 2%;
+        border-right-color: rgb(72, 117, 0);
+        border-right-style: double;
+      }
+      #social {
+        display: inline-block;
+        width: 350px;
+        padding-right: 0;
+        padding-left: 2%;
+        border-right-color: rgb(72, 117, 0);
+        border-right-style: double;
+      }
+      #contact {
+        display: inline-block;
+        width: 350px;
+        padding-right: 0;
+        padding-left: 2%;
+        border-right-color: rgb(72, 117, 0);
+        border-right-style: double;
+      }
+      
+    }
+    #main {
+        text-align: center;
+        padding: 20px;
+        margin-top: 0px;
+        background-color: rgb(199, 228, 247);
+      }
+      .footer {
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: white;
+      }
+
+      .header {
+        padding: 10px;
+        text-align: center;
+        background-color: #4CAF50;
+        margin: 0px;
+      }
+
+      #logo {
+        font-size: 50px;
+        text-decoration: none;
+        color: rgb(2, 17, 10);
+        text-decoration: underline overline ;
+      }
+      #logo:hover {
+        color: rgb(72, 117, 0);
+      }
+      #them{
+        display: none;
+      }
+      .foopart {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 33%;
+      }
+      #logopic {
+        height: 40px;
+        width: 40px;
+      }
+      .socialpic {
+        height: 20px;
+        width: 20px;
+      }
+      .socialpic:hover {
+        opacity: 0.7;
+      }
+      
+      /*STANDARD CSS FOR EVERY PAGE*/
+      /*HOME PAGE CSS*/
+    #card {
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+      }
+      #emphasis {
+        font-weight: bold;;
+      }
+      .sample {
+        margin-top: 5%;
+        display: inline-block;
+        width: 320px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+      }
+      .product {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+      }
+      .pic {
+        height: 200px;
+        width: 300px;
+      }
+      .sample:hover {
+        opacity: 1;
+      }
+      .overlay {
+        position: absolute;
+        height: 200px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #008CBA;
+      }
+      .sample:hover .overlay {
+        opacity: 0.7;
+      }
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      #pass, #username {
+        border:2px solid #456879;
+        border-radius:10px;
+        height: 22px;
+        width: 230px;
+      }
+      #signup {
+        width: 100%;
+      }
+      /*HOME PAGE CSS*/
+      /*forgot password*/
+.form-popup {
+    display: none;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: #4CAF50;
+  }
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  .form-container .cancel {
+    background-color: red;
+  }
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  /*forgot password*/
+  /*THEME BUTTON CSS*/
+  #theme {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  /*THEME BUTTON CSS*/
+  /*PROGRESS BAR CSS*/
+  .progress-container {
+    top:0;
+    position: sticky;
+    width: 100%;
+    height: 10px;
+    background-color: #333;
+  }
+  
+  .progress-bar {
+    position: sticky;
+    height: 10px;
+    background-color: #4caf50;
+    width: 0%;
+  }
+  /*PROGRESS BAR CSS*/
+/*CHAT CSS*/
+  .chat-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 80px;
+  }
+  
+ 
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    z-index: 9;
+  }
+  
+  
+  .chat-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: #333;
+  }
+  
+ 
+  .chat-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background-color: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+
+  .chat-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+ 
+  .chat-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+
+  .chat-container .cancel {
+    background-color: red;
+  }
+  
+  
+  .chat-container .btn:hover, .chat-button:hover {
+    opacity: 1;
+  }
+  * {box-sizing: border-box;}
+  /*CHAT CSS*/
+  /*COMING SOON CSS*/
+  #bgimg {
+    width: 95%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+  }
+  .middle {
+    color: #4CAF50;
+    position: relative;
+    height: 0px;
+    top: -110px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /*COMING SOON CSS*/
+  /*CATEGORIES CSS*/
+    #mysession {
+      display: none;
+    }
+    .catpic {
+      width: 30%;
+      height: auto;
+    }
+    .category2 {
+      border: none;
+      background-color: teal;
+      width:60%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      text-align: center;
+      padding:5%;
+      margin-right: 30%;
+    }
+    .ctext {
+      display: none;
+    }
+    .category {
+      border: none;
+      background-color: #4CAF50;
+      width:60%;
+      margin-left: 30%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      text-align: center;
+      padding:5%;
+    }
+    .category:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+    .category2:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+    /*CATEGORIES CSS*/
+    /*CART CSS*/
+    @media screen and (max-device-width: 600px) {
+    .sidenav {
+      display: none;
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      z-index: 1;
+      top: 0px;
+      left: 0px;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      color:white;
+      opacity:1;
+    }
+    }
+    @media screen and (min-device-width: 601px) {
+      .sidenav {
+        display: none;
+        height: 100%;
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0px;
+        left: 0px;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        color:white;
+        opacity:1;
+      }
+      }
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    #cartbutton {
+      right:30px;
+      bottom: 100px;
+      position: fixed;
+      border-radius: 100%;
+      background-color: #3333;
+      font-size:36px;
+      opacity: 0.8;
+    }
+  /*CART CSS*/
+  .propic {
+    height: 200px;
+    width : 100%;
+  }
+  .procard {
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #4CAF50;
+    width: 300px;
+    height: 400px;
+  }
+  #procardout {
+    display: inline-block;
+  }
+.quan {
+  width: 28px;
+  border:2px solid #456879;
+  border-radius:10px;
+  height: 22px;
+}
+.min, .max {
+  display: none;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#clear {
+  background-color: rgb(231, 46, 46);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#lucky {
+  background-color: darkcyan;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#warning {
+  color: red;
+}
+.cartimages {
+  background-color: #f1f1f1;
+  width: 100px;
+  height: auto;
+  margin: 5px;
+}
+.cartnames {
+  display: inline-block;
+}
+.cartpro {
+  background-color: black;
+}
+

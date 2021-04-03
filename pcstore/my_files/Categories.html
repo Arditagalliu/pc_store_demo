@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PcStore - Categories</title>
+        <link rel="shortcut icon" type="image/png" href="images/categoriesicon.png" />
+        <link rel="stylesheet" type="text/css" href="my_page.css">
+        <style>
+            .active {
+                background-color: #4CAF50;
+            }
+        </style>
+    </head>
+    <body>
+        <a id=logo href="My_page.html">
+            
+            <div class="header">
+                <img id="logopic" src="images/computer.png">
+                Pc Store.gr
+            </div>
+        </a>
+
+        <ul id="nav">
+            <li><a href="My_page.html">Home</a></li>
+            <li class="active"><a href="Categories.html">Categories</a></li>
+            <li id="about"><a href="#footer">About</a></li>
+        </ul>
+
+        <div id="main">
+            <h1 id="title">Choose the category you want:</h1>
+            <a href="Desktop.html">
+                <div class="category" id="cat1" >
+                    <div class="categ" id="incat1">
+                        <img id="catpic1" src="images/laptop.png" onmouseout="document.getElementById('ctext1').style.display='none'" onmouseover="document.getElementById('ctext1').style.display='block'">
+                        <h2>Personal Computers</h2>
+                        <span id="ctext1">Decide between the top laptops and desktops of the year
+                        Including MAC All-in-One, Sony, MS Surface, MacBooks, HP, Lenovo.
+                        </span>
+                    </div>
+                </div>
+            </a>
+            <a href="Mobile.html" >
+                <div class="category" id="cat2">
+                    <div class="categ" id="incat2">
+                        <img id="catpic2" src="images/smartphone.png" onmouseout="document.getElementById('ctext2').style.display='none'" onmouseover="document.getElementById('ctext2').style.display='block'">
+                        <h2>Mobile Devices</h2>
+                        <span id="ctext2"> Decide between the top smartphones and tablets of the year
+                        Including Ipad, Iphone, Sumsung, Xiaomi, Huawei.
+                        </span>
+                    </div>
+                    </div>
+                </div>
+            </a>    
+        </div>
+
+        <div class="footer" id="footer">
+            <div class="foopart" id="social">
+                <h3>Our Social Media:</h3>
+                <img class="socialpic" src="images/insta.png"> Follow us on Instagram<br>
+                <img class="socialpic" src="images/face.png"> Like us on Facebook<br>
+                <img class="socialpic" src="images/twit.png"> Follow us on Twitter<br>
+            </div>
+            <div class="foopart" id="contact">
+                <h3>Contact Us:</h3>
+                <img class="socialpic" src="images/phone.png"> +300 210 2738543<br>
+                <img class="socialpic" src="images/mail.png"> pcstore@email.com<br>
+                <img class="socialpic" src="images/map.png"> Panepistimiou 50 Syntagma <br>
+            </div>
+            <div class="foopart" id="copy">
+                <h3>Pc_Store.Gr</h3><br><br><br>
+                <img class="socialpic" src="images/copy.png"> All right reserved<br>
+            </div>
+        </div>
+    </body>
+</html>
